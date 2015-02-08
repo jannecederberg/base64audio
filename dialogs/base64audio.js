@@ -123,7 +123,7 @@ CKEDITOR.dialog.add("base64audioDialog", function(editor){
         minWidth: 450,
         minHeight: 180,
 		onLoad: function(){
-			alert('Tämä toiminto on valitettavasti tällä hetkellä käytettävissä vain Chrome-selaimella!');
+			alert('Tämä toiminto toimii tällä hetkellä oikein valitettavasti vain Chrome-selaimella!');
 			
 			if(fsupport) {
 				
